@@ -1,34 +1,39 @@
 // Projects.js
 import React from "react";
+import logoproject from "../../../public/Group 473 (1).png";
+import logonoteapp from "../../../public/image.png";
+import logocomponets from "../../../public/image copy.png";
+import logoiphone from "../../../public/image copy 2.png";
 
 const project = [
   {
-    title: "Data manipulation and representation",
+    title: "Puey Puey E-Commerce Web Application",
     description:
-      "Data manipulation and representation on React JS Function Based Components",
+      "Developed an e-commerce platform focused on the pet humanization trend in Thailand, leveraging insights from Mahidol University's Marketing Faculty.",
+    category: "React JS ",
+    imageUrl: logoproject,
+  },
+  {
+    title: "Notes-App",
+    description:
+      " Developed a user-friendly and efficient notes application, enabling users to manage personal notes conveniently.",
     category: "React JS",
-    imageUrl: "path_to_image_1",
+    imageUrl: logonoteapp,
   },
   {
-    title: "Product Admin Dashboard",
+    title:
+      "Data manipulation and representation On React JS Function Based Components",
     description:
-      "Vivamus eleifend convallis ante, non pharetra libero molestie laoreet.",
-    category: "UI-UX DESIGN",
-    imageUrl: "path_to_image_2",
+      "Developed a dynamic web application focused on data manipulation and representation using React JS function-based components, enhancing user interaction and data visualization.",
+    category: "React Js",
+    imageUrl: logocomponets,
   },
   {
-    title: "Product Admin Dashboard",
+    title: "iPhone 15 Website using React.js and Tailwind CSS",
     description:
-      "Vivamus eleifend convallis ante, non pharetra libero molestie laoreet.",
-    category: "UI-UX DESIGN",
-    imageUrl: "path_to_image_3",
-  },
-  {
-    title: "Product Admin Dashboard",
-    description:
-      "Vivamus eleifend convallis ante, non pharetra libero molestie laoreet.",
-    category: "UI-UX DESIGN",
-    imageUrl: "path_to_image_4",
+      "this project aims to recreate the Apple  iPhone 15 Pro website using  React.js and  TailwindCSS, with a focus on implementing smooth animations using GSAP (Greensock Animations) and rendering 3D models of the  iPhone 15 Pro in different colors and sizes using Three.js and its related libraries ( React Three Fiber and React Three Drei).",
+    category: "React Js",
+    imageUrl: logoiphone,
   },
   {
     title: "Product Admin Dashboard",

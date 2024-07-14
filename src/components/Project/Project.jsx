@@ -3,7 +3,7 @@ import React from "react";
 import logoproject from "../../../public/Group 473 (1).png";
 import logonoteapp from "../../../public/image.png";
 import logocomponets from "../../../public/image copy.png";
-import logoiphone from "../../../public/image copy 2.png";
+import wentor from "../../../public/image copy 3.png"
 
 const project = [
   {
@@ -29,13 +29,14 @@ const project = [
     imageUrl: logocomponets,
   },
   {
-    title: "iPhone 15 Website using React.js and Tailwind CSS",
+    title:
+      "A weather app that was built using weather APIs and is a PWA web app",
     description:
-      "this project aims to recreate the Apple  iPhone 15 Pro website using  React.js and  TailwindCSS, with a focus on implementing smooth animations using GSAP (Greensock Animations) and rendering 3D models of the  iPhone 15 Pro in different colors and sizes using Three.js and its related libraries ( React Three Fiber and React Three Drei).",
+      "This is a weather app that was built using weather APIs and is a PWA web app.",
     category: "React Js",
-    imageUrl: logoiphone,
+    imageUrl: wentor,
   },
-  {
+  /*{
     title: "Product Admin Dashboard",
     description:
       "Vivamus eleifend convallis ante, non pharetra libero molestie laoreet.",
@@ -48,7 +49,7 @@ const project = [
       "Vivamus eleifend convallis ante, non pharetra libero molestie laoreet.",
     category: "UI-UX DESIGN",
     imageUrl: "path_to_image_6",
-  },
+  },*/
 ];
 
 const Project = () => {
@@ -58,11 +59,7 @@ const Project = () => {
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-6">
           PROJECT
         </h2>
-        <p className="text-center text-gray-600 mb-12">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration.
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {project.map((project, index) => (
             <div
               key={index}
